@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Phone, Clock, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaFacebook, FaWhatsapp } from "react-icons/fa";
 import logo from "@/assets/logo.jpg";
 
 const navLinks = [
@@ -105,7 +105,7 @@ const Header = () => {
 
               {/* Social Media - Only Instagram and TikTok */}
               <a 
-                href="https://www.instagram.com/dentalconsultants/" 
+                href="https://www.instagram.com/dentalconsultantsclinic/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-9 h-9 flex items-center justify-center rounded-full bg-yellow-600 text-white hover:scale-110 transition"
@@ -120,6 +120,15 @@ const Header = () => {
                 className="w-9 h-9 flex items-center justify-center rounded-full bg-yellow-600 text-white hover:scale-110 transition"
               >
                 <FaTiktok size={14} />
+              </a>
+              
+              <a 
+                href="https://www.facebook.com/profile.php?id=61591329785123&sk=photos" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="w-9 h-9 flex items-center justify-center rounded-full bg-yellow-600 text-white hover:scale-110 transition"
+              >
+                <FaFacebook size={14} />
               </a>
 
               {/* WhatsApp Button */}

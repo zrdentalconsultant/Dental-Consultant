@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaFacebook } from "react-icons/fa";
 import Layout from "@/components/Layout";
 import PageBanner from "@/components/PageBanner";
 import aboutHero from "@/assets/about-hero.jpeg";
@@ -16,8 +16,9 @@ const team = [
     image: doctor1,
     desc: "Muhammad Abdullah is a skilled and dedicated general dentist with over 7 years of clinical experience, committed to providing high-quality, patient-centered dental care. He holds certifications in endodontics, orthodontics, and dental implants, allowing him to offer a wide range of advanced treatments under one roof. In addition, he has completed his MCPS in Family Dentistry, further strengthening his expertise in comprehensive oral health management for patients of all ages. Dr. Abdullah is known for his gentle approach, attention to detail, and focus on delivering comfortable, effective, and long-lasting dental solutions.",
     socials: { 
-      instagram: "https://www.instagram.com/dentalconsultants/", 
-      tiktok: "https://www.tiktok.com/@dental_consultants" 
+      instagram: "https://www.instagram.com/dentalconsultantsclinic/", 
+      tiktok: "https://www.tiktok.com/@dental_consultants",
+      facebook: " https://www.facebook.com/profile.php?id=61591329785123&sk=photos" 
     },
   },
   {
@@ -26,8 +27,9 @@ const team = [
     image: doctor2,
     desc: "Dr. Usma Mumtaz is a highly qualified orthodontist with an MDS in Orthodontics, specializing in the diagnosis, prevention, and correction of dental and facial irregularities. With a strong academic background and clinical expertise, he is dedicated to creating confident, healthy smiles through advanced orthodontic treatments, including braces and aligners. Dr. Mumtaz is known for his precision, patient-focused approach, and commitment to delivering personalized treatment plans that ensure optimal functional and aesthetic outcomes.",
     socials: { 
-      instagram: "https://www.instagram.com/dentalconsultants/", 
-      tiktok: "https://www.tiktok.com/@dental_consultants" 
+      instagram: "https://www.instagram.com/dentalconsultantsclinic/", 
+      tiktok: "https://www.tiktok.com/@dental_consultants",
+      facebook: " https://www.facebook.com/profile.php?id=61591329785123&sk=photos" 
     },
   },
   {
@@ -36,8 +38,9 @@ const team = [
     image: doctor3,
     desc: "Dr. Umer Iqbal is a highly skilled Maxillofacial Surgeon and FCPS specialist, with extensive expertise in the diagnosis and surgical management of complex facial, oral, and jaw conditions. He is trained in performing advanced procedures including facial trauma management, corrective jaw surgeries, and oral surgical treatments with precision and care. Dr. Iqbal is known for his meticulous surgical skills, patient-centered approach, and commitment to achieving both functional excellence and aesthetic outcomes, ensuring the highest standard of care for his patients",
     socials: { 
-      instagram: "https://www.instagram.com/dentalconsultants/", 
-      tiktok: "https://www.tiktok.com/@dental_consultants" 
+      instagram: "https://www.instagram.com/dentalconsultantsclinic/", 
+      tiktok: "https://www.tiktok.com/@dental_consultants",
+      facebook: " https://www.facebook.com/profile.php?id=61591329785123&sk=photos" 
     },
   },
   {
@@ -46,8 +49,9 @@ const team = [
     image: doctor4,
     desc: "Dr. Romessa Anis is a dedicated general dentist with 4 years of clinical experience, known for her compassionate approach and commitment to patient comfort. She holds certifications in endodontics, orthodontics, and pediatric (child care) dentistry, enabling her to provide comprehensive dental care for both adults and children. With a focus on gentle treatment and attention to detail, Dr. Romessa Anis strives to deliver effective, personalized dental solutions while ensuring a positive and stress-free experience for every patient.",
     socials: { 
-      instagram: "https://www.instagram.com/dentalconsultants/", 
-      tiktok: "https://www.tiktok.com/@dental_consultants" 
+      instagram: "https://www.instagram.com/dentalconsultantsclinic/", 
+      tiktok: "https://www.tiktok.com/@dental_consultants",
+      facebook: " https://www.facebook.com/profile.php?id=61591329785123&sk=photos" 
     },
   },
 ];

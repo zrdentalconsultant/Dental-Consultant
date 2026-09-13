@@ -2,18 +2,22 @@ import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
 import { Phone, Mail, MapPin } from "lucide-react";
 // Switched to react-icons for better social icon support (Instagram & TikTok)
-import { FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   const socialLinks = [
     {
       Icon: FaInstagram,
-      href: "https://www.instagram.com/dentalconsultants/"
+      href: "https://www.instagram.com/dentalconsultantsclinic/"
     },
     {
       Icon: FaTiktok,
       href: "https://www.tiktok.com/@dental_consultants"
     },
+    {
+      Icon: FaFacebook,
+      href: "https://www.facebook.com/profile.php?id=61591329785123&sk=photos"
+    }
   ];
 
   return (
